@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="CSS/mainpagestyle.css">
 </head>
 <body>
-    
+    <header>
+    </header>
 </body>
 </html>

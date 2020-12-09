@@ -26,5 +26,18 @@
       </div>
     </header>
     <div class="background"></div>
+
+    <div class="landing_page">
+      <div class="landing_page_leftblock">
+        <div class="landing_page_leftblock_name">ТАЛFAH</div>
+        <div class="landing_page_leftblock_describe">- полезный продукт питания, позволяющий за короткое время эффективно восстановить свои силы,а также укрепить здоровье и энергетический тонус организма на долгие годы.</div>
+        <div class="landing_page_leftblock_buttons">
+          <div class="landing_page_leftblock_buttons_order">Оформить заказ</div>
+          <div class="landing_page_leftblock_buttons_knowmore">Узнать подробнее </div>
+        </div>
+      </div>
+      <div class="landing_page_rightblock">
+        <div class="landing_page_rightblock_image"><img src="CSS/image/landing_page/image_landingpage.png"></div>
+      </div>
 </body>
 </html>

@@ -17,12 +17,14 @@
            <nav class="nav_page"><a href="@">О производстве</a></nav>
            <nav class="nav_page"><a href="@">Контакты</a></nav>
       </nav>
+      <div class="bl_for_header_describe">
       <div class="header_describe">
          <div class="header_describe_email">paulbor@mail.ru</div>
          <div class="header_describe_number">+7(913)449-53-31</div>
          <div class="header_describe_name">Боргояков Павел Геннадьевич</div>
       </div>
+      </div>
     </header>
-    <div class="background" ></div>
+    <div class="background"></div>
 </body>
 </html>

@@ -23,6 +23,6 @@
          <div class="header_describe_name">Боргояков Павел Геннадьевич</div>
       </div>
     </header>
-    
+    <div class="background" ></div>
 </body>
 </html>

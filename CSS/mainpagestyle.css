@@ -4,9 +4,7 @@ html, body{
     margin:0;
     padding: 0;
 }
-body{
-    background-image: url(image/background.svg);
-}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -46,4 +44,11 @@ a{
 .header_describe_name{
     
     grid-area: header_describe_name;
+}
+.background{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/background.png);
 }

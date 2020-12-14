@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Рецепты</title>
     <link rel="stylesheet" href="CSS/mainstyleresepts.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -24,10 +26,21 @@
       </div>
     </header>
     <div class="background"></div>
-    <article>
-     
-    </article>
 
+    <article>Способы приготовления Талгана</article>
+
+    <div class="cooking_methods">Вкусное и полезное блюдо из талгана можно приготовить за 1-2 минуты (без варки). </br> Талган – это фактически готовый продукт. Его можно добавлять в сок, кефир, йогурт, мясной бульон и мясной фарш, делать из него сладости. </div>
+    
+    <div class="recepts">
+      <div class="recepts_left_block">
+        <div class="recepts_left_block_numberrecept">Способ №1</div>
+        <div class="recepts_left_block_ingredients">∙ 1 стакан теплого молока</br>∙ 3-4 ч.л. талгана </br>∙ 1 ч.л. сахара </div>
+      </div>
+      <div class="recepts_right_block">
+        <div class="recepts_right_block_howdo">Перемешать и готово.</div>
+        <div class="recepts_right_block_skew"></div>
+      </div>
+    </div>
     <footer>
       <div class="footer_describe">Глава КФХ Боргояков Павел Геннадьевич <br> ИНН 190116626196 • ОГРНИП 315190200000650</div>
        <div class="footer_social">

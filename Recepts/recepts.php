@@ -35,9 +35,34 @@
       <div class="recepts_left_block" id="recepts_left_block">  
         <div class="recepts_left_block_numberrecept">Способ №1</div>
         <div class="recepts_left_block_ingredients">∙ 1 стакан теплого молока</br>∙ 3-4 ч.л. талгана </br>∙ 1 ч.л. сахара </div>
+        <div class="recepts_left_block_arrowright"></div>
       </div>
       <div class="recepts_right_block">
         <div class="recepts_right_block_howdo">Перемешать и готово.</div>
+        <div class="recepts_right_block_skew"></div>
+      </div>
+    </div>
+
+    <div class="recepts" id="recepts">
+      <div class="recepts_left_block" id="recepts_left_block">  
+        <div class="recepts_left_block_numberrecept">Способ №2</div>
+        <div class="recepts_left_block_ingredients">∙ 400 г масла </br>∙ 2 стакана талгана </br>∙ 2-3 ч.л. сахара или меда</br> ∙ 1/4 стакана молотой сухой черемухи</div>
+        <div class="recepts_left_block_arrowright"></div>
+      </div>
+      <div class="recepts_right_block">
+        <div class="recepts_right_block_howdo">В растопленное масло высыпать талган, добавить сахар или мед, черемуху.Тщательно перемешать и готово. Можно охладить и нарезать на кусочки</div>
+        <div class="recepts_right_block_skew"></div>
+      </div>
+    </div>
+
+    <div class="recepts" id="recepts">
+      <div class="recepts_left_block" id="recepts_left_block">  
+        <div class="recepts_left_block_numberrecept">Способ №3</div>
+        <div class="recepts_left_block_ingredients"> ∙ 1 стакан кефира </br> ∙ 2 ст.л. талгана </br> ∙ 10 г грецкого ореха</div>
+        <div class="recepts_left_block_arrowright"></div>
+      </div>
+      <div class="recepts_right_block">
+        <div class="recepts_right_block_howdo">В растопленное масло высыпать талган, добавить сахар или мед, черемуху.Тщательно перемешать и готово. Можно охладить и нарезать на кусочки</div>
         <div class="recepts_right_block_skew"></div>
       </div>
     </div>

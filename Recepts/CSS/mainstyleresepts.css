@@ -90,6 +90,7 @@ footer{
     left: 50%;
     margin-left: -46%;
     padding-bottom: 2%;
+    margin-top:5%;
 }
 .footer_describe{
     display:flex;
@@ -184,7 +185,7 @@ article{
     border-radius: 35px;
     background-color:rgba(3, 176, 30, 0.85);
     position: relative;
-    margin-top:3%;
+    margin-top:5%;
     left: 50%;
     margin-left: -46%; 
     width: 88%;
@@ -202,6 +203,7 @@ article{
    
 }
 .recepts_left_block{
+    position: relative;
     flex-direction: column;
     justify-content: center;
      padding:2%;
@@ -219,7 +221,7 @@ article{
     position: absolute;
     top:0;
     right:-5%;
-    background-color: rgba(14, 156, 45, 1);
+    background-color: rgba(14, 156, 45, 0.733);
     border-radius: 40px;
     transform: skew(15deg);
     z-index: 2;
@@ -248,11 +250,26 @@ article{
 }
 .recepts_right_block_howdo{
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 35px;
     letter-spacing: 0.02em;
     text-align: left;
     z-index: 23;
+    width: 70%;
+    color:rgb(235, 235, 235);
+}
+.recepts_left_block_arrowright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    width: 25%;
+    height: 50px;
+    background-image: url(image/arrow_recepts.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }

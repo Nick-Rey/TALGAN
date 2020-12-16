@@ -1,0 +1,124 @@
+html, body{
+    height: 100%;
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    height: 12%;
+    border-bottom: 2px solid #C1C1C1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    z-index: 1;
+    position: relative;
+    left: 50%;
+    margin-left: -46%;
+}
+.header_navigation{
+    display:flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    column-gap: 20px;
+}
+.header_navigation :nth-child(n){
+    margin-left: 3%;
+}
+.header_navigation :first-child{
+    margin-left: 0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.bl_for_header_describe{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border-bottom: 2px solid white;
+}
+.header_describe{
+    display:grid;
+    grid-template-areas: 
+    "header_describe_number header_describe_email "
+    "header_describe_name header_describe_name";
+    grid-row-gap:5px;
+    grid-column-gap:15px;
+    text-align: right;
+}
+.header_describe_email{
+    font-size:16px;
+    grid-area: header_describe_email;
+}
+.header_describe_number{
+    font-size:16px;
+    grid-area: header_describe_number;
+}
+.header_describe_name{
+    font-size:16px;
+    grid-area: header_describe_name;
+}
+.background{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    background-image: url(image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    height: 87%;
+    position: relative;
+    left: 50%;
+    margin-left: -46%;
+}
+.contact_variant{
+ width: 25%;
+ height: 20%;
+}
+.contact_variant_caption{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    height: 20%;
+}
+.contact_variant_icon, .contact_variant_caption{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+.contact_variant_icon{
+    display:flex;
+    align-items: flex-end;
+    height:80%;
+    width: 100%
+}
+
+.contact_variant_icon :first-child{
+    margin-left:0px;
+}
+img{
+     height: 100% ;
+} 
+.contact_variant_icon_soc{
+    height: 80% ;
+    margin-left:25px;
+} 

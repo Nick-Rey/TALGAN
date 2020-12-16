@@ -12,10 +12,10 @@
     <header>
       <nav class="header_navigation">
            <nav class="nav_page"><a href="http://talgan/">Главная</a></nav>
-           <nav class="nav_page"><a href="Recepts\recepts.php">Рецепты</a></nav>
+           <nav class="nav_page"><a href="http://talgan/Recepts/recepts.php">Рецепты</a></nav>
            <nav class="nav_page"><a href="@">Заказать</a></nav>
            <nav class="nav_page"><a href="@">О производстве</a></nav>
-           <nav class="nav_page"><a href="@">Контакты</a></nav>
+           <nav class="nav_page"><a href="http://talgan/Contacts/Contacts.php">Контакты</a></nav>
       </nav>
       <div class="bl_for_header_describe">
       <div class="header_describe">

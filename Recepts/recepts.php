@@ -31,8 +31,8 @@
 
     <div class="cooking_methods">Вкусное и полезное блюдо из талгана можно приготовить за 1-2 минуты (без варки). </br> Талган – это фактически готовый продукт. Его можно добавлять в сок, кефир, йогурт, мясной бульон и мясной фарш, делать из него сладости. </div>
     
-    <div class="recepts">
-      <div class="recepts_left_block">
+    <div class="recepts" id="recepts">
+      <div class="recepts_left_block" id="recepts_left_block">  
         <div class="recepts_left_block_numberrecept">Способ №1</div>
         <div class="recepts_left_block_ingredients">∙ 1 стакан теплого молока</br>∙ 3-4 ч.л. талгана </br>∙ 1 ч.л. сахара </div>
       </div>
@@ -41,6 +41,7 @@
         <div class="recepts_right_block_skew"></div>
       </div>
     </div>
+
     <footer>
       <div class="footer_describe">Глава КФХ Боргояков Павел Геннадьевич <br> ИНН 190116626196 • ОГРНИП 315190200000650</div>
        <div class="footer_social">
@@ -53,5 +54,6 @@
        </div>
       <div class="footer_geo">655700, Республика Хакасия<br> с. Аскиз, ул. Калинина, 38</div>
     </footer>
+    <script src="JS/height_of_recepts.js"></script>
 </body>
 </html>

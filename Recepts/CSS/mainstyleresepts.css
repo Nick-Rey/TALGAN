@@ -188,8 +188,8 @@ article{
     left: 50%;
     margin-left: -46%; 
     width: 88%;
-    padding:2%;
-    height: 25%;
+    /* padding:2%; */
+    /* height: 25%; */
     z-index: 1;
 }
 
@@ -199,10 +199,12 @@ article{
     border-radius: 35px;
     width: 45%;
     height: 100%;
+   
 }
 .recepts_left_block{
     flex-direction: column;
     justify-content: center;
+     padding:2%;
 }
 .recepts_right_block{
     justify-content: center;

@@ -14,7 +14,7 @@
       <nav class="header_navigation">
            <nav class="nav_page"><a href="http://talgan/">Главная</a></nav>
            <nav class="nav_page"><a href="http://talgan/Recepts/recepts.php">Рецепты</a></nav>
-           <nav class="nav_page"><a href="@">Заказать</a></nav>
+           <nav class="nav_page"><a href="http://talgan/Order/order.php">Заказать</a></nav>
            <nav class="nav_page"><a href="http://talgan/Aboutus/aboutus.php">О производстве</a></nav>
            <nav class="nav_page"><a href="http://talgan/Contacts/Contacts.php">Контакты</a></nav>
       </nav>

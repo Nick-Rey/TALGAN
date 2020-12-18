@@ -47,6 +47,8 @@ select_product_button[i].onclick = function rt () {
     //Создание формы отправки 
     let select_product_info_container_secondrow_form = document.createElement('form');
     select_product_info_container_secondrow_form.classList.add("select_product_info_container_secondrow_form");
+    select_product_info_container_secondrow_form.method = "POST";
+    select_product_info_container_secondrow_form.action = "send.php"
     select_product_info_container_secondrow.appendChild(select_product_info_container_secondrow_form);
     
     //Создание блока номера телефона покупателя 

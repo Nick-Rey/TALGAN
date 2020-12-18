@@ -30,22 +30,27 @@
     <article>Оформить заказ</article>
 
     <div class="select_product_container">
+      
      <div class="select_product">
+      <div id="select_product_weight">0.45 0.9</div>
+      <div id="select_product_cost">85 150</div>
        <div class="select_product_title">Талган Пшеничный</div>
        <div class="select_product_imagecontainer">
-         <img class="select_product_image image1" src="CSS/image/product/talgan_pheno.png">
-         <img class="select_product_image image2" src="CSS/image/product/talgan_pheno.png">
+         <img id="select_product_image" class="select_product_image image1" src="CSS/image/product/talgan_pheno.png">
+         <img id="select_product_image" class="select_product_image image2" src="CSS/image/product/talgan_pheno.png">
        </div>
-       <div class="select_product_button">Заказать</div>
+       <div class="select_product_button" id="select_product_button">Заказать</div>
      </div>
      
      <div class="select_product">
+     <div id="select_product_weight">0.45 0.9</div>
+      <div id="select_product_cost">85 150</div>
        <div class="select_product_title">Талган Ячменный </div>
        <div class="select_product_imagecontainer">
-         <img class="select_product_image select_product_image2 image1" src="CSS/image/product/talgan_iachmen.png">
-         <img class="select_product_image select_product_image2 image2" src="CSS/image/product/talgan_iachmen.png">
+         <img id="select_product_image" class="select_product_image select_product_image2 image1" src="CSS/image/product/talgan_iachmen.png">
+         <img  id="select_product_image" class="select_product_image select_product_image2 image2" src="CSS/image/product/talgan_iachmen.png">
        </div>
-       <div class="select_product_button">Заказать</div>
+       <div class="select_product_button" id="select_product_button">Заказать</div>
      </div>
     </div>
     
@@ -147,5 +152,6 @@
       <div class="footer_geo">655700, Республика Хакасия<br> с. Аскиз, ул. Калинина, 38</div>
     </footer>
      <script src="JS/circle.js"></script>
+     <script src="JS/talgan_more.js"></script>
  </body>   
 </html>

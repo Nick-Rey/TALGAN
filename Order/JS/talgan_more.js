@@ -37,7 +37,6 @@ select_product_button[i].onclick = function rt () {
     select_product_info_container_firstrow_title.classList.add("select_product_info_container_firstrow_title");
     select_product_info_container_firstrow_title.innerHTML = select_product_title.textContent;
     select_product_info_container_firstrow.appendChild(select_product_info_container_firstrow_title);
-    
     //Создание блока закрытия подробного описания товара(крестик)
     let select_product_info_container_firstrow_close = document.createElement('div');
     select_product_info_container_firstrow_close.classList.add("select_product_info_container_firstrow_close");
@@ -58,6 +57,11 @@ select_product_button[i].onclick = function rt () {
     select_product_info_container_secondrow_form_input_number.name = "user_number";
     select_product_info_container_secondrow_form_input_number.placeholder = "Номер телефона";
     select_product_info_container_secondrow_form.appendChild(select_product_info_container_secondrow_form_input_number);
+     
+    //Создание блока ошибки при неправильном вводе формы номера телефона или пустого поля
+    let select_product_info_container_secondrow_form_errornum = document.createElement('div');
+    select_product_info_container_secondrow_form_errornum.classList.add("select_product_info_container_secondrow_form_errornum");
+    select_product_info_container_secondrow_form.appendChild(select_product_info_container_secondrow_form_errornum);
    
     //Создание контейнера для выбора объема и количества покупаемого товара 
     let select_product_info_container_secondrow_contselect = document.createElement('div');
@@ -103,8 +107,20 @@ select_product_button[i].onclick = function rt () {
     select_product_info_container_secondrow_form_input_name.name = "user_name";
     select_product_info_container_secondrow_form_input_name.placeholder = "Как к вам обращаться";
     select_product_info_container_secondrow_form.appendChild(select_product_info_container_secondrow_form_input_name);
+
+    //Создание блока ошибки при невведении номера телефона
+    let select_product_info_container_secondrow_form_errorname = document.createElement('div');
+    select_product_info_container_secondrow_form_errorname.classList.add("select_product_info_container_secondrow_form_errorname");
+    select_product_info_container_secondrow_form.appendChild(select_product_info_container_secondrow_form_errorname);
     
-    //Создание блока имени покупателя
+    //скрытый блок для отправки названия товара 
+    let select_product_info_container_secondrow_form_input_nameproduct = document.createElement('input');
+    select_product_info_container_secondrow_form_input_nameproduct.classList.add("select_product_info_container_secondrow_form_input_nameproduct");
+    select_product_info_container_secondrow_form_input_nameproduct.type = "text";
+    select_product_info_container_secondrow_form_input_nameproduct.name = "name_product";
+    select_product_info_container_secondrow_form_input_nameproduct.value = select_product_title.textContent;
+    select_product_info_container_secondrow_form.appendChild(select_product_info_container_secondrow_form_input_nameproduct);
+    //Создание кнопки отправки
     let select_product_info_container_secondrow_form_submit = document.createElement('input');
     select_product_info_container_secondrow_form_submit.classList.add("select_product_info_container_secondrow_form_submit");
     select_product_info_container_secondrow_form_submit.type = "submit";
@@ -180,11 +196,11 @@ select_product_button[i].onclick = function rt () {
         select_product_info_container_secondrow_form_selectsize_value=select_product_info_container_secondrow_form_selectsize.value;
         select_product_info_container_secondrow_form_number_value = select_product_info_container_secondrow_form_number.value;
         if(select_product_info_container_secondrow_form_selectsize_value=="0.9кг"){
-        select_product_info_container_secondrow_cont_cost_number.innerHTML = 150*select_product_info_container_secondrow_form_number_value + "p";
-         }
+            select_product_info_container_secondrow_cont_cost_number.innerHTML = 150*select_product_info_container_secondrow_form_number_value + "p";
+        }
         if(select_product_info_container_secondrow_form_selectsize_value=="0.45кг"){
             select_product_info_container_secondrow_cont_cost_number.innerHTML = 85 * select_product_info_container_secondrow_form_number_value + "p";
-        }     
+        }    
     }
      
     //Блок изображения товара 
@@ -209,7 +225,40 @@ select_product_button[i].onclick = function rt () {
 
     select_product.appendChild(select_product_info_container_background);
     select_product_info_container_background.style.display = "flex";
-     
+    //ВАЛИДАЦИЯ ФОРМЫ ВАЛИДАЦИЯ ФОРМЫ ВАЛИДАЦИЯ ФОРМЫ ВАЛИДАЦИЯ ФОРМЫ ВАЛИДАЦИЯ ФОРМЫ ВАЛИДАЦИЯ ФОРМЫ 
+
+
+    select_product_info_container_secondrow_form.onsubmit = function (event) {
+        select_product_info_container_secondrow_form_errorname.style.display="none";
+        select_product_info_container_secondrow_form_errornum.style.display="none";
+        select_product_info_container_secondrow_form_errornum.value = "";
+        select_product_info_container_secondrow_form_errorname.value = "";
+        if(select_product_info_container_secondrow_form_input_number.value==""){
+            select_product_info_container_secondrow_form_errornum.style.display="block";
+            select_product_info_container_secondrow_form_errornum.innerHTML="Введите номер телефона";
+            event.preventDefault();
+        }
+
+        if(!select_product_info_container_secondrow_form_input_number.value.startsWith("+7")){
+            select_product_info_container_secondrow_form_errornum.style.display="block";
+            select_product_info_container_secondrow_form_errornum.innerHTML="Корректно введите номер телефона </br> (в формате  +7...)";
+            event.preventDefault();
+        }
+        if(select_product_info_container_secondrow_form_input_number.value.length>12 || select_product_info_container_secondrow_form_input_number.value.length<12){
+            select_product_info_container_secondrow_form_errornum.style.display="block";
+            select_product_info_container_secondrow_form_errornum.innerHTML="Корректно введите номер телефона </br> (в формате  +7...)";
+            event.preventDefault();
+        }
+
+        if(select_product_info_container_secondrow_form_input_name.value==""){
+            select_product_info_container_secondrow_form_errorname.style.display="block";
+            select_product_info_container_secondrow_form_errorname.innerHTML="Введите, как к вам можно обращаться";
+            event.preventDefault();
+        }
+    };
+
+
+    //Закрытие блока заказать
     select_product_info_container_firstrow_close.onclick = function close(){
         select_product_info_container_background.remove();
     }

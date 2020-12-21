@@ -470,6 +470,9 @@ article{
     height: 15%;
     cursor: pointer;
 }
+.select_product_info_container_secondrow_form_input_nameproduct{
+    display: none;
+}
 .select_product_info_container_secondrow_form_submit{
     width:65%;
     height: 15%;
@@ -554,3 +557,12 @@ table, tr{
     justify-content: space-between;
     position: relative;
 }
+.select_product_info_container_secondrow_form_errorname, .select_product_info_container_secondrow_form_errornum{
+    display: none;
+    width: 100%;
+    text-align: center;
+    color:#FAF8F8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.

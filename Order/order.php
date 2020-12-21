@@ -154,5 +154,6 @@
     </footer>
      <script src="JS/circle.js"></script>
      <script src="JS/talgan_more.js"></script>
+     <script src="JS/valid.js"></script>
  </body>   
 </html>

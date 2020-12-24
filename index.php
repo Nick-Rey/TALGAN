@@ -12,11 +12,11 @@
   <!-- Начало шапки сайта -->
     <header>
       <nav class="header_navigation">
-           <nav class="nav_page"><a href="http://talgan/">Главная</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Recepts/recepts.php">Рецепты</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Order/order.php">Заказать</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Aboutus/aboutus.php">О производстве</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Contacts/Contacts.php">Контакты</a></nav>
+           <nav class="nav_page"><a class="a_main" href="http://talgan/">Главная</a></nav>
+           <nav class="nav_page"><a class="a_recepts" href="http://talgan/Recepts/recepts.php">Рецепты</a></nav>
+           <nav class="nav_page"><a class="a_order" href="http://talgan/Order/order.php">Заказать</a></nav>
+           <nav class="nav_page"><a class="a_about" href="http://talgan/Aboutus/aboutus.php">О производстве</a></nav>
+           <nav class="nav_page"><a class="a_contact" href="http://talgan/Contacts/Contacts.php">Контакты</a></nav>
       </nav>
       <div class="bl_for_header_describe">
       <div class="header_describe">
@@ -64,7 +64,8 @@
           <img src="CSS/image/partners/khakassia.png" alt="">
        </div>
      </div>
-      <div class="partners_block_rightblock"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4d7bdfbd6eb2ddc19a6e60ff304f4d4e97c48cf8e7606e12563dbe4a362950c4&amp;width=100%25&amp;height=60%&amp;lang=ru_RU&amp;scroll=true"></script></div>
+     <div class="partners_block_rightblock partners_block_rightblock1"><script class="map" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4d7bdfbd6eb2ddc19a6e60ff304f4d4e97c48cf8e7606e12563dbe4a362950c4&amp;width=100%25&amp;height=60%&amp;lang=ru_RU&amp;scroll=true"></script></div>
+     <div class="partners_block_rightblock partners_block_rightblock2"><script class="map" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4d7bdfbd6eb2ddc19a6e60ff304f4d4e97c48cf8e7606e12563dbe4a362950c4&amp;width=100%25&amp;height=90%&amp;lang=ru_RU&amp;scroll=true"></script></div>
     </div>
     <footer>
       <div class="footer_describe">Глава КФХ Боргояков Павел Геннадьевич <br> ИНН 190116626196 • ОГРНИП 315190200000650</div>
@@ -78,5 +79,6 @@
        </div>
       <div class="footer_geo">655700, Республика Хакасия<br> с. Аскиз, ул. Калинина, 38</div>
     </footer>
+    <script type="text/javascript" src="JS/mobile.js"></script>
 </body>
 </html>

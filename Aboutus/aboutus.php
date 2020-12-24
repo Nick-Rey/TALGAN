@@ -9,13 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
  </head>
  <body>
-   <header>
+ <header>
       <nav class="header_navigation">
-           <nav class="nav_page"><a href="http://talgan/">Главная</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Recepts/recepts.php">Рецепты</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Order/order.php">Заказать</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Aboutus/aboutus.php">О производстве</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Contacts/Contacts.php">Контакты</a></nav>
+           <nav class="nav_page"><a class="a_main" href="http://talgan/">Главная</a></nav>
+           <nav class="nav_page"><a class="a_recepts" href="http://talgan/Recepts/recepts.php">Рецепты</a></nav>
+           <nav class="nav_page"><a class="a_order" href="http://talgan/Order/order.php">Заказать</a></nav>
+           <nav class="nav_page"><a class="a_about" href="http://talgan/Aboutus/aboutus.php">О производстве</a></nav>
+           <nav class="nav_page"><a class="a_contact" href="http://talgan/Contacts/Contacts.php">Контакты</a></nav>
       </nav>
       <div class="bl_for_header_describe">
       <div class="header_describe">
@@ -36,7 +36,7 @@
          </div>
     </div>
 
-    <div class="production_block">
+    <div class="production_block production_block2">
          <div class="production_block_leftblock">
              <img class="production_block_picture2" src="CSS/image/picture/grind.jpg">
           
@@ -46,7 +46,7 @@
          </div>
     </div>
 
-    <div class="production_block">
+    <div class="production_block production_block3">
          <div class="production_block_leftblock">
            <div class="production_block_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat gravida sit ullamcorper nullam fringilla sagittis at aliquam. Vel massa eget quam sagittis, eu est. Sollicitudin dictumst ullamcorper diam elementum facilisi vitae quisque molestie. A, leo posuere rhoncus, eu. Sed urna, habitant arcu dolor posuere tincidunt. At amet, iaculis sit luctus eu curabitur eget. </div>
          </div>
@@ -67,5 +67,6 @@
        </div>
       <div class="footer_geo">655700, Республика Хакасия<br> с. Аскиз, ул. Калинина, 38</div>
     </footer>
+    <script type="text/javascript" src="JS/mobile.js"></script>
  </body>
 </html>

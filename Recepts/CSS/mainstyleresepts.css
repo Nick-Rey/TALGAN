@@ -18,6 +18,7 @@ header{
     position: relative;
     left: 50%;
     margin-left: -46%;
+    white-space: nowrap;
 }
 .header_navigation{
     display:flex;
@@ -258,7 +259,7 @@ article{
     text-align: left;
     z-index: 23;
     width: 70%;
-    color:rgb(235, 235, 235);
+    color:rgb(255, 255, 255);
 }
 .recepts_left_block_arrowright{
     display: flex;
@@ -272,4 +273,656 @@ article{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+}
+
+
+@media (min-width: 1900px) and (max-width: 2000px) {
+    header{
+        height: 9%;
+        border-bottom: 3px solid #C1C1C1;
+        font-size: 25px;
+    }
+    .header_navigation{
+        column-gap: 30px;
+    }
+    .bl_for_header_describe{
+        border-bottom: 3px solid white;
+    }
+
+    .header_describe_email, .header_describe_name, .header_describe_number{
+        font-size:22px;
+    }
+
+    footer{
+        height: 9%;
+        border-top: 3px solid #C1C1C1;
+        font-size: 22px;
+    }
+    .footer_describe{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .footer_geo{
+        font-size: 22px;
+        line-height: 32px;
+        width: 31%;
+        border-top: 3px solid white;
+    }
+    .talgan19{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    article{
+        font-size: 65px;
+        line-height: 70px;
+    }
+    .cooking_methods{
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .recepts{
+        border-radius: 35px;
+    } 
+    .recepts_right_block, .recepts_left_block{
+      border-radius: 35px;     
+    }
+    .recepts_right_block_skew{
+        border-radius: 40px;
+    }
+    .recepts_left_block_numberrecept{
+        font-size: 35px;
+        line-height:40px;     
+    }
+    .recepts_left_block_ingredients{
+        font-size: 25px;
+        line-height: 42px;
+    }
+    .recepts_right_block_howdo{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .recepts_left_block_arrowright{
+        width: 25%;
+        height: 50px;
+    }
+    
+
+ }
+ @media (min-width: 1420px) and (max-width: 1450px) {
+    header{
+        height: 10%;
+        border-bottom: 2px solid #C1C1C1;
+        font-size: 20px;
+    }
+    .header_navigation{
+        column-gap: 16px;
+    }
+    .bl_for_header_describe{
+        border-bottom: 3px solid white;
+    }
+
+    .header_describe_email, .header_describe_name, .header_describe_number{
+        font-size:18px;
+    }
+
+    footer{
+        height: 9%;
+        border-top: 3px solid #C1C1C1;
+        font-size: 22px;
+    }
+    .footer_describe{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .footer_geo{
+        font-size: 18px;
+        line-height: 28px;
+        width: 27%;
+        border-top: 2px solid white;
+    }
+    .talgan19{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    article{
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .cooking_methods{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .recepts{
+        border-radius: 35px;
+    } 
+    .recepts_right_block, .recepts_left_block{
+      border-radius: 35px;     
+    }
+    .recepts_right_block_skew{
+        border-radius: 40px;
+    }
+    .recepts_left_block_numberrecept{
+        font-size: 32px;
+        line-height:38px;     
+    }
+    .recepts_left_block_ingredients{
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .recepts_right_block_howdo{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .recepts_left_block_arrowright{
+        width: 25%;
+        height: 50px;
+    }
+
+ }
+ @media (min-width: 1500px) and (max-width: 1540px) {
+    header{
+        height: 10%;
+        border-bottom: 2px solid #C1C1C1;
+        font-size: 21px;
+    }
+    .header_navigation{
+        column-gap: 16px;
+    }
+    .bl_for_header_describe{
+        border-bottom: 2px solid white;
+    }
+
+    .header_describe_email, .header_describe_name, .header_describe_number{
+        font-size:19px;
+    }
+
+    footer{
+        height: 9%;
+        border-top: 3px solid #C1C1C1;
+        font-size: 22px;
+    }
+    .footer_describe{
+        font-size: 19px;
+        line-height: 28px;
+    }
+    .footer_geo{
+        font-size: 19px;
+        line-height: 28px;
+        width: 27%;
+        border-top: 2px solid white;
+    }
+    .talgan19{
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    article{
+        font-size: 57px;
+        line-height: 60px;
+    }
+    .cooking_methods{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .recepts{
+        border-radius: 35px;
+    } 
+    .recepts_right_block, .recepts_left_block{
+      border-radius: 35px;     
+    }
+    .recepts_right_block_skew{
+        border-radius: 40px;
+    }
+    .recepts_left_block_numberrecept{
+        font-size: 32px;
+        line-height:38px;     
+    }
+    .recepts_left_block_ingredients{
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .recepts_right_block_howdo{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .recepts_left_block_arrowright{
+        width: 25%;
+        height: 50px;
+    }
+
+ }
+ @media (min-width: 1580px) and (max-width: 1600px) {
+    header{
+        height: 10%;
+        border-bottom: 2px solid #C1C1C1;
+        font-size: 22px;
+    }
+    .header_navigation{
+        column-gap: 16px;
+    }
+    .bl_for_header_describe{
+        border-bottom: 2px solid white;
+    }
+
+    .header_describe_email, .header_describe_name, .header_describe_number{
+        font-size:20px;
+    }
+
+    footer{
+        height: 9%;
+        border-top: 3px solid #C1C1C1;
+        font-size: 22px;
+    }
+    .footer_describe{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .footer_geo{
+        font-size: 20px;
+        line-height: 30px;
+        width: 30%;
+        border-top: 2px solid white;
+    }
+    .talgan19{
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    article{
+        font-size: 58px;
+        line-height: 60px;
+    }
+    .cooking_methods{
+        font-size: 25px;
+        line-height: 45px;
+    }
+    .recepts{
+        border-radius: 35px;
+    } 
+    .recepts_right_block, .recepts_left_block{
+      border-radius: 35px;     
+    }
+    .recepts_right_block_skew{
+        border-radius: 40px;
+    }
+    .recepts_left_block_numberrecept{
+        font-size: 34px;
+        line-height:42px;     
+    }
+    .recepts_left_block_ingredients{
+        font-size: 24px;
+        line-height: px;
+    }
+    .recepts_right_block_howdo{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .recepts_left_block_arrowright{
+        width: 25%;
+        height: 50px;
+    }
+
+ }
+ @media (min-width: 1200px) and (max-width: 1300px) {
+    header{
+        height: 8%;
+        border-bottom: 2px solid #C1C1C1;
+        font-size: 18px;
+    }
+    .header_navigation{
+        column-gap: 12px;
+    }
+    .bl_for_header_describe{
+        border-bottom: 2px solid white;
+    }
+
+    .header_describe_email, .header_describe_name, .header_describe_number{
+        font-size:16px;
+    }
+
+    footer{
+        height: 9%;
+        border-top: 3px solid #C1C1C1;
+        font-size: 18px;
+    }
+    .footer_describe{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .footer_geo{
+        font-size: 16px;
+        line-height: 25px;
+        width: 20%;
+        border-top: 2px solid white;
+    }
+    .talgan19{
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    article{
+        font-size: 52px;
+        line-height: 60px;
+    }
+    .cooking_methods{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .recepts{
+        border-radius: 35px;
+    } 
+    .recepts_right_block, .recepts_left_block{
+      border-radius: 35px;     
+    }
+    .recepts_right_block_skew{
+        border-radius: 40px;
+    }
+    .recepts_left_block_numberrecept{
+        font-size: 30px;
+        line-height:35px;     
+    }
+    .recepts_left_block_ingredients{
+        font-size: 22px;
+        line-height:35px;
+    }
+    .recepts_right_block_howdo{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .recepts_left_block_arrowright{
+        width: 25%;
+        height: 50px;
+    }
+ }
+ @media (min-width: 1000px) and (max-width: 1050px) {
+    header{
+        height: 9%;
+        border-bottom: 2px solid #C1C1C1;
+        font-size: 15px;
+        z-index: 3;
+    }
+    .header_navigation{
+        column-gap: 8px;
+        width: 50%;
+    }
+    .bl_for_header_describe{
+        border-bottom: 2px solid white;
+        z-index: 1;
+    }
+
+    .header_describe_email, .header_describe_name, .header_describe_number{
+        font-size:14px;
+    }
+
+    footer{
+        height: 9%;
+        border-top: 2px solid #C1C1C1;
+        font-size: 18px;
+    }
+    .footer_describe{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .footer_geo{
+        font-size: 12px;
+        line-height: 20px;
+        width: 28%;
+        border-top: 2px solid white;
+    }
+    .talgan19{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    article{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .cooking_methods{
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .recepts{
+        border-radius: 35px;
+    } 
+    .recepts_right_block, .recepts_left_block{
+      border-radius: 35px;     
+    }
+    .recepts_right_block_skew{
+        border-radius: 40px;
+    }
+    .recepts_left_block_numberrecept{
+        font-size: 26px;
+        line-height:32px;     
+    }
+    .recepts_left_block_ingredients{
+        font-size: 18px;
+        line-height:30px;
+    }
+    .recepts_right_block_howdo{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .recepts_left_block_arrowright{
+        width: 25%;
+        height: 50px;
+    }
+
+ }
+ @media (min-width: 310px) and (max-width:600px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        height:100%;
+        border-bottom: 0px;
+        background: linear-gradient(90deg, rgba(18, 211, 101, 0.98) 22.4%, rgba(26, 211, 105, 0.935111) 47.92%, rgba(54, 208, 120, 0.77918) 81.77%, rgba(140, 228, 178, 0.447307) 99.99%, rgba(255, 255, 255, 0) 100%);
+        font-size: 18px;
+        z-index: 2;
+        position: absolute;
+        top:0;
+        left: -100%;
+        margin-left: 0px;
+    }
+    .header_navigation{
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        left: 5%;
+        top:10%;
+        width: 50%;
+        row-gap: 15px;
+        
+    }
+    .header_navigation :nth-child(n){
+        margin-left: 0;
+    }
+    
+    .bl_for_header_describe{
+        justify-content: flex-start;
+        align-items: flex-end;
+        width:100%;
+        position: relative;
+        left: 3%;
+    }
+    .header_describe{
+        margin-bottom: 5%;
+    }
+    
+    .header_describe_name{
+        text-align: left;
+    }
+    .background{
+        position: absolute;
+        top:-40%;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+        transform: rotate(-90deg);
+    }
+    
+    .nav_menu{
+        width:100%;
+        height: 8%;
+        position: fixed;
+        left: 3%;
+        top: 2%;
+        margin-bottom: 5%;
+    }
+    .nav_menu_img{
+        height: 45%;
+    }
+ 
+    .nav_menu_img_arrow{
+        position: absolute;
+        right: 3%;
+        top:3%;
+    }
+    .header_navigation{
+       color:white;
+    }
+   .header_navigation{
+      color:white;
+   }
+   .a_recepts{
+       color:white;
+      text-decoration:underline 1px white;
+   }
+    footer{
+    width: 96%;
+    margin-left: -48%;
+    height: 12%;
+    border-top:0;
+}
+    .footer_describe{
+    display:none;
+}
+    .footer_geo{
+     display:none;
+}
+
+    .footer_social_icon{
+    height: 70%;
+    width: auto;
+}
+    .talgan19{
+    margin-top:10%;
+    margin-bottom:3%;
+    font-size: 18px;
+    line-height: 25px;
+}
+article{
+    margin-top:20%;
+    width: 96%;
+    position: relative;
+    left:50%;
+    margin-left:-48%;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: left;
+    
+}
+
+.cooking_methods{
+    position: relative;
+    margin-top:10%;
+    left: 50%;
+    margin-left: -48%;
+    padding: 2% ; 
+    width: 92%;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+}
+.recepts{
+    display: block;
+    border-radius: 35px;
+    background-color:rgba(255, 255, 255, 0);
+    position: relative;
+    margin-top:5%;
+    left: 50%;
+    margin-left: -47%; 
+    width: 84%;
+    z-index: 1;
+}
+
+.recepts_right_block, .recepts_left_block{
+    display:flex;
+    overflow: hidden;
+    border-radius: 35px;
+    width: 100%;
+    height: 100%;
+   
+}
+.recepts_left_block{
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    padding:6%;
+    margin-top: 10%;
+    background-color:rgba(3, 176, 30, 0.85);
+}
+.recepts_right_block{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding:6%;
+    margin-top:8%;
+    position: relative;
+}
+.recepts_right_block_skew{
+    width: 100%;
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: rgba(14, 156, 45, 0.733);
+    border-radius:35px;
+    transform: skew(0);
+    z-index: 2;
+}
+.recepts_left_block_numberrecept{
+    margin-bottom: 3%;
+    margin-left: 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    
+}
+.recepts_left_block_ingredients{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    
+}
+.recepts_right_block_howdo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    z-index: 23;
+    width: 90%;
+    color:rgb(255, 255, 255);
+}
+.recepts_left_block_arrowright{
+    display:none;
+}
+
 }

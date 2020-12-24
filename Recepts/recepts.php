@@ -11,11 +11,11 @@
 <body>
     <header>
       <nav class="header_navigation">
-           <nav class="nav_page"><a href="http://talgan/">Главная</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Recepts/recepts.php">Рецепты</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Order/order.php">Заказать</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Aboutus/aboutus.php">О производстве</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Contacts/Contacts.php">Контакты</a></nav>
+           <nav class="nav_page"><a class="a_main" href="http://talgan/">Главная</a></nav>
+           <nav class="nav_page"><a class="a_recepts" href="http://talgan/Recepts/recepts.php">Рецепты</a></nav>
+           <nav class="nav_page"><a class="a_order" href="http://talgan/Order/order.php">Заказать</a></nav>
+           <nav class="nav_page"><a class="a_about" href="http://talgan/Aboutus/aboutus.php">О производстве</a></nav>
+           <nav class="nav_page"><a class="a_contact" href="http://talgan/Contacts/Contacts.php">Контакты</a></nav>
       </nav>
       <div class="bl_for_header_describe">
       <div class="header_describe">
@@ -62,7 +62,7 @@
         <div class="recepts_left_block_arrowright"></div>
       </div>
       <div class="recepts_right_block">
-        <div class="recepts_right_block_howdo">В растопленное масло высыпать талган, добавить сахар или мед, черемуху.Тщательно перемешать и готово. Можно охладить и нарезать на кусочки</div>
+        <div class="recepts_right_block_howdo">Перемешать и готово.</div>
         <div class="recepts_right_block_skew"></div>
       </div>
     </div>
@@ -80,5 +80,6 @@
       <div class="footer_geo">655700, Республика Хакасия<br> с. Аскиз, ул. Калинина, 38</div>
     </footer>
     <script src="JS/height_of_recepts.js"></script>
+    <script type="text/javascript" src="JS/mobile.js"></script>
 </body>
 </html>

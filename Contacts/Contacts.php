@@ -11,11 +11,11 @@
 <body>
     <header>
       <nav class="header_navigation">
-           <nav class="nav_page"><a href="http://talgan/">Главная</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Recepts/recepts.php">Рецепты</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Order/order.php">Заказать</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Aboutus/aboutus.php">О производстве</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Contacts/Contacts.php">Контакты</a></nav>
+           <nav class="nav_page"><a class="a_main" href="http://talgan/">Главная</a></nav>
+           <nav class="nav_page"><a class="a_recepts" href="http://talgan/Recepts/recepts.php">Рецепты</a></nav>
+           <nav class="nav_page"><a class="a_order" href="http://talgan/Order/order.php">Заказать</a></nav>
+           <nav class="nav_page"><a class="a_about" href="http://talgan/Aboutus/aboutus.php">О производстве</a></nav>
+           <nav class="nav_page"><a class="a_contact" href="http://talgan/Contacts/Contacts.php">Контакты</a></nav>
       </nav>
       <div class="bl_for_header_describe">
       <div class="header_describe">
@@ -45,7 +45,7 @@
       </div>
       <div class="contact_variant_caption">talgan19</div>
      </div>
-
     </div>
+    <script type="text/javascript" src="JS/mobile.js"></script>
 </body>
 </html>

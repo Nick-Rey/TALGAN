@@ -3,20 +3,21 @@
 <html lang="en">
  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Заказать</title>
-    <link rel="stylesheet" href="CSS/mainstyleorder.css">
+    
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="CSS/mainstyleorder.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
  </head>
  <body>
-   <header>
+  <header>
       <nav class="header_navigation">
-           <nav class="nav_page"><a href="http://talgan/">Главная</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Recepts/recepts.php">Рецепты</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Order/order.php">Заказать</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Aboutus/aboutus.php">О производстве</a></nav>
-           <nav class="nav_page"><a href="http://talgan/Contacts/Contacts.php">Контакты</a></nav>
+           <nav class="nav_page"><a class="a_main" href="http://talgan/">Главная</a></nav>
+           <nav class="nav_page"><a class="a_recepts" href="http://talgan/Recepts/recepts.php">Рецепты</a></nav>
+           <nav class="nav_page"><a class="a_order" href="http://talgan/Order/order.php">Заказать</a></nav>
+           <nav class="nav_page"><a class="a_about" href="http://talgan/Aboutus/aboutus.php">О производстве</a></nav>
+           <nav class="nav_page"><a class="a_contact" href="http://talgan/Contacts/Contacts.php">Контакты</a></nav>
       </nav>
       <div class="bl_for_header_describe">
       <div class="header_describe">
@@ -121,7 +122,7 @@
        </div>
      </div>
 
-     <div class="achievemets_row">
+     <div class="achievemets_row achievemets_row2">
 
        <div class="achievemets_row_point">
          <div class="achievemets_row_point_imagecontainer">
@@ -154,6 +155,6 @@
     </footer>
      <script src="JS/circle.js"></script>
      <script src="JS/talgan_more.js"></script>
-     <script src="JS/valid.js"></script>
+     <script type="text/javascript" src="JS/mobile.js"></script>
  </body>   
 </html>

@@ -34,7 +34,7 @@
         <div class="landing_page_leftblock_name">ТАЛFAH</div>
         <div class="landing_page_leftblock_describe">- полезный продукт питания, позволяющий за короткое время эффективно восстановить свои силы,а также укрепить здоровье и энергетический тонус организма на долгие годы.</div>
         <div class="landing_page_leftblock_buttons">
-          <a class="landing_page_leftblock_buttons_order" href="@">Оформить заказ</a>
+          <a class="landing_page_leftblock_buttons_order" href="http://talgan/Order/order.php">Оформить заказ</a>
           <div class="landing_page_leftblock_buttons_knowmore">Узнать подробнее </div>
         </div>
       </div>
@@ -47,10 +47,10 @@
          <div class="production_block_leftblock">
            <div class="production_block_leftblock_title">О производстве</div>
            <div class="production_block_leftblock_text">В производстве нашей продукции,мы используем традиционный способприготовления:  Для начала зерна обжариваем на огне. Далее мы перемалываем их на каменных жерновах. В целях поддержания высокого качества обжарки, была сконструирована печь под управлением микроконтроллера, что гарантирует высокое и однородное качество товара и исключает человеческий фактор с процесса обжарки. </div>
-           <div class="production_block_leftblock_button">Подробнее</div>
+           <a class="production_block_leftblock_button" href="http://talgan/Aboutus/aboutus.php">Подробнее</a>
          </div>
          <div class="production_block_rightblock">
-           <video class="production_block_rightblock_video" src="CSS/video/talganvideo.mp4" controls></video>
+         <iframe class="production_block_rightblock_video"  src="https://www.youtube.com/embed/GAaoQ6mwyDg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          </div>
     </div>
     <div class="partners_block">
@@ -65,7 +65,7 @@
        </div>
      </div>
      <div class="partners_block_rightblock partners_block_rightblock1"><script class="map" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4d7bdfbd6eb2ddc19a6e60ff304f4d4e97c48cf8e7606e12563dbe4a362950c4&amp;width=100%25&amp;height=60%&amp;lang=ru_RU&amp;scroll=true"></script></div>
-     <div class="partners_block_rightblock partners_block_rightblock2"><script class="map" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4d7bdfbd6eb2ddc19a6e60ff304f4d4e97c48cf8e7606e12563dbe4a362950c4&amp;width=100%25&amp;height=90%&amp;lang=ru_RU&amp;scroll=true"></script></div>
+     <div class="partners_block_rightblock partners_block_rightblock2"><script class="map" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4d7bdfbd6eb2ddc19a6e60ff304f4d4e97c48cf8e7606e12563dbe4a362950c4&amp;width=100%25&amp;height=350px&amp;lang=ru_RU&amp;scroll=true"></script></div>
     </div>
     <footer>
       <div class="footer_describe">Глава КФХ Боргояков Павел Геннадьевич <br> ИНН 190116626196 • ОГРНИП 315190200000650</div>

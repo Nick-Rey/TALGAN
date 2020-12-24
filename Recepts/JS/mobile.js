@@ -1,6 +1,29 @@
-let window_width = window.innerWidth;
+
 let header = document.querySelector("header");
-if(window_width<600){
+window.onload = function rep(){
+    let window_width = document.documentElement.clientWidth;
+    if(window_width<899){
+    console.log(window_width);
+    create ()
+  }
+}
+ window.onresize = function res(){
+    let window_width = document.documentElement.clientWidth;
+    if(window_width>899){
+       document.body.querySelector(".nav_menu").remove();
+       document.body.querySelector(".nav_menu_img_arrow").remove();
+      }
+    
+      if(window_width<899 &&  document.body.querySelector(".nav_menu") ==null ){
+        console.log(window_width);
+        create ()
+          
+      }
+}
+
+
+
+function create (){
     let nav_menu = document.createElement('div');
     nav_menu.classList.add("nav_menu");
     
@@ -23,8 +46,5 @@ if(window_width<600){
         nav_menu_img_arrow.onclick = function close (){
             header.style.left= "-100%"; 
         }
-    }
-    if(window_width>600){
-        nav_menu.remove();
-    }
+    }  
 }

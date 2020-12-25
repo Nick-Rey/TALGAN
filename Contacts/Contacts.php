@@ -40,8 +40,8 @@
 
      <div class="contact_variant"> 
       <div class="contact_variant_icon">
-       <img class="contact_variant_icon_soc" src="CSS/image/social/vk.png">
-       <img class="contact_variant_icon_soc" src="CSS/image/social/inst.png">
+       <a href="https://vk.com/talgan19"><img class="contact_variant_icon_soc" src="CSS/image/social/vk.png"></a>
+       <a href="https://www.instagram.com/talgan19/"><img class="contact_variant_icon_soc" src="CSS/image/social/inst.png"></a>
       </div>
       <div class="contact_variant_caption">talgan19</div>
      </div>

@@ -110,7 +110,8 @@ a{
     display:flex;
     align-items: flex-end;
     height:80%;
-    width: 100%
+    width: 100%;
+    column-gap: 20px;
 }
 
 .contact_variant_icon :first-child{
@@ -123,7 +124,6 @@ a{
     height: 80% ;
     margin-left:25px;
 } 
-
 @media (min-width: 1900px) and (max-width: 2000px) {
     header{
         height: 9%;
